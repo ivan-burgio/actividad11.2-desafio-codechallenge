@@ -1,0 +1,72 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Toma el 100% de la altura de la pantalla */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Estilo para el encabezado h1 */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el formulario */
+#registro-form {
+    width: 30rem;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center; /* Alineación de contenido al centro */
+}
+
+/* Estilo para etiquetas de formulario */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Estilo para campos de entrada */
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    max-width: 25rem;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+/* Estilo para el botón de enviar */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
